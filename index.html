@@ -9,10 +9,10 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header mb-2">
+    <header id="header">
 
         <!-- CONTAINER LOGO -->
-        <div class="container-1">
+        <div class="container-logo">
             <img id="logo-img-header" src="img/Logo.png" alt="">
             <span id="logo-text-header">Toboolist</span>
         </div>
@@ -23,72 +23,110 @@
 
     <!-- MAIN -->
     <main>
-        <div class="container-2">
-            <nav>
-                <div id="buttons-container">
-                    <button id="blue-button" class="button-settings"> Add Task</button>
-                    <button id="white-button" class="button-settings"> Add a Section</button>
-                </div>
-            </nav>
+        <!-- BUTTONS SECTION -->
+        <nav>
+            <div id="buttons-container">
+            <button id="blue-button" class="button-settings-nav"> Add Task</button>
+            <button id="white-button" class="button-settings-nav"> Add a Section</button>
+            </div>
+        </nav>
+        <!-- BUTTONS SECTION -->
 
-            <section>
-               <ul class="to-do-list">
-                   <li class="black-point">&#9207; New Task
-                       <ul>
-                           <li class="list-item">
-                               <span class="tick entity-settings">&#10004;</span>
-                               Quarterly Newsletter
-                            </li>
-                       </ul> 
-                    </li>
+        <!-- LIST SECTION -->
+        <section>
 
-                   </li>
-                   <li class="black-point">&#9207; Today
-                       <ul>
-                           <li class="list-item">
-                                <span class="tick entity-settings">&#10004;</span>
-                                Recrutiting blog post
-                            </li>
-                           <li class="list-item">
-                                <span class="tick entity-settings">&#10004;</span>
-                                Mobile app launch
-                            </li>
-                           <li class="list-item">
-                               <span class="cross entity-settings">&#10006;</span>
-                               Interview John H.
-                            </li>
-                           <li class="list-item">
-                                <span class="tick entity-settings">&#10004;</span>
-                                Summit update to mobile storefronts
-                            </li>
-                       </ul>
-                   </li>
-                   <li class="black-point"> &#9207; Upcoming
-                       <ul>
-                           <li class="list-item">
-                               <span class="cross entity-settings">&#10006;</span>
-                               Schedule meeting with Alex
-                            </li>
-                           <li class="list-item">
-                                <span class="tick entity-settings">&#10004;</span>
-                                Homepage refresh
-                            </li>
-                           <li class="list-item">
-                                <span class="tick entity-settings">&#10004;</span>
-                                Onboard new Sales team members
-                            </li>
-                           <li class="list-item">
+            <!-- LIST -->
+            <ul class="to-do-list">
+
+                <!-- FIRST POINT -->
+                <li class="black-point">&#9207; New Task
+                    <ul>
+
+                        <li class="list-item">
+                            <span class="tick entity-settings">&#10004;</span>
+                            Quarterly Newsletter
+                            <button class="buttons-settings light-blue">Editorial</button>
+                        </li>
+
+                    </ul> 
+                </li>
+                <!-- /FIRST POINT -->
+                
+
+                <!-- SECOND POINT  -->
+                <li class="black-point">&#9207; Today
+                    <ul>
+
+                        <li class="list-item">
+                            <span class="tick entity-settings">&#10004;</span>
+                            Recrutiting blog post
+                            <button class="buttons-settings light-blue">Editorial</button>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="tick entity-settings">&#10004;</span>
+                            Mobile app launch
+                            <button class="buttons-settings purple">Q1 Goals</button>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="cross entity-settings">&#10006;</span>
+                            Interview John H.
+                            <button class="buttons-settings green">Recruiting</button>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="tick entity-settings">&#10004;</span>
+                            Summit update to mobile storefronts
+                           <button class="buttons-settings dark-yellow">Mobile</button>
+                        </li>
+
+                    </ul>
+                </li>
+                <!-- /SECOND POINT  -->
+
+                <!-- THIRD POINT -->
+                <li class="black-point"> &#9207; Upcoming
+                    <ul>
+
+                        <li class="list-item">
+                           <span class="cross entity-settings">&#10006;</span>
+                           Schedule meeting with Alex
+                        </li>
+
+                        <li class="list-item">
+                            <span class="tick entity-settings">&#10004;</span>
+                            Homepage refresh
+                            <button class="buttons-settings fucsia">Website</button>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="tick entity-settings">&#10004;</span>
+                            Onboard new Sales team members
+                            <button class="buttons-settings light-green">Sales</button>
+                        </li>
+
+                        <li class="list-item">
                             <span class="tick entity-settings">&#10004;</span>
                             Review editorial calendar
+                            <button class="buttons-settings light-blue">Editorial</button>
                         </li>
-                       </ul>
-                   </li>
-               </ul>
-            </section>
 
-        </div>
+                    </ul>
+                </li>
+                <!-- /THIRD POINT -->
+
+
+            </ul>
+            <!-- /LIST -->
+
+
+        </section>
+        <!-- /LIST SECTION -->
+
+        
     </main>
-    <!-- MAIN -->
+    <!-- /MAIN -->
 
 </body>
 </html>
