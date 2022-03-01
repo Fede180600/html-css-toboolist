@@ -41,9 +41,9 @@ body {
 main {
     width: 75%;
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 2em auto 1em;
     border-radius: 5px;
-    padding-bottom: 1.5em;
+    padding-bottom: .5em;
 }
 
 /* buttons nav section */
@@ -110,6 +110,7 @@ main {
     color: #e61b1b;
     border: 1px solid #e61b1b;
 }
+
 /* /settings of the entitys */
 
 /* colored buttons aside */
